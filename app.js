@@ -8,11 +8,9 @@ import cors from "cors";
 import publicRoutes from "./src/routes/public";
 import errorHandler from "./src/middleware/errorHandler";
 const swaggerUi = require("swagger-ui-express");
-// const swaggerDocument = require("./swagger.json");
 
 dotenv.config();
 require("./src/config/sequelize");
-// require('mysql2/node_modules/iconv-lite').encodingExists('foo');
 
 
 const app = express();
